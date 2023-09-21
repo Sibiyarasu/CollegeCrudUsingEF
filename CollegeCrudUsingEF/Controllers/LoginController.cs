@@ -20,7 +20,8 @@ namespace CollegeCrudUsingEF.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    return Redirect("/Product/List");
+                    return Redirect("/Student/List");
+
 
 
                 }
