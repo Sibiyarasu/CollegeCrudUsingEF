@@ -58,9 +58,16 @@ namespace DataAccessLibrary.Repository
             }
         }
 
-        StudentModel IStudentInfo.GetStudentById(int id)
+      public    StudentModel GetStudentById(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+
+            }
+            catch(SqlException ex)
+            {
+                thro
+            }
         }
 
       public   void InsertStudentInfo(StudentModel model)
